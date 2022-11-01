@@ -44,7 +44,7 @@ class Student extends Person {
 /*
     Instance from Student class that inherits
 */
-const student = new Student('osama', 'osama.s.abdelmoniem@gmail.com', 123456);
+const student = new Student('nelson', 'nelson@gmail.com', 123456);
 student.study();
 
 /*
@@ -66,10 +66,5 @@ class CsStudent extends Student {
     }
 }
 
-const csStudent = new CsStudent(
-    'osama',
-    'osama.s.abdelmoniem@gmail.com',
-    123456,
-    'OOP'
-);
+const csStudent = new CsStudent('nelson', 'nelson', 123456, 'OOP');
 csStudent.attendCodingContest();
