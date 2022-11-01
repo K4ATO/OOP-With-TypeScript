@@ -35,5 +35,5 @@ class Person {
     - Passing our 2 properties ( name, email )
     - Calling greet() method with 'me' object.
 */
-const me = new Person('osama', 'osama.s.abdelmoniem@gmail.com');
+const me = new Person('nelson', 'nelson@gmail.com');
 me.greet();
