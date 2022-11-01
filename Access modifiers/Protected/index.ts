@@ -30,9 +30,9 @@ class Student extends Person {
     _email can be access by shareEmail() method.
     We cant access _email with the object because its protected.
 */
-const person = new Person('osama.s.abdelmoniem@gmail.com');
+const person = new Person('nelson@gmail.com');
 // console.log(person._email); will give an error
 
-const student = new Student('osama.s.abdelmoniem@gmail.com');
+const student = new Student('nelson@gmail.com');
 // console.log(student._email) will give an error
 student.shareEmail();
