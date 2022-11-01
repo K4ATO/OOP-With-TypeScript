@@ -22,12 +22,6 @@ class Person {
 }
 
 class Student extends Person {
-    public id: number;
-
-    public constructor(email: string, id: number) {
-        super(email);
-        this.id = id;
-    }
     public shareEmail(): void {
         //console.log(`My email is ${this._email}`);
         // This will give an error,because _email is private in Person class.
@@ -43,7 +37,7 @@ const person = new Person('osama.s.abdelmoniem@gmail.com');
 // console.log(person._email); will give an error
 
 // Student instance
-const student = new Student('osama.s.abdelmoniem@gmail.com', 123456);
+const student = new Student('osama.s.abdelmoniem@gmail.com');
 // accessing email property using Student instance
 // console.log(student._email); will give an error
 student.shareEmail();
