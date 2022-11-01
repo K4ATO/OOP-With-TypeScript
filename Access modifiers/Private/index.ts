@@ -15,7 +15,7 @@ class Person {
         this._email = email;
     }
 
-    // a getter method to get the private property
+    // a getter method to get the private property.
     public getEmail() {
         return this._email;
     }
@@ -33,11 +33,11 @@ class Student extends Person {
 
 // Person instance
 const person = new Person('osama.s.abdelmoniem@gmail.com');
-// accessing email property using Person instance
-// console.log(person._email); will give an error
+// accessing email property using Person instance.
+// console.log(person._email); will give an error.
 
 // Student instance
 const student = new Student('osama.s.abdelmoniem@gmail.com');
-// accessing email property using Student instance
-// console.log(student._email); will give an error
+// accessing email property using Student instance.
+// console.log(student._email); will give an error.
 student.shareEmail();
