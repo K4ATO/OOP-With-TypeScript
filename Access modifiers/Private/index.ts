@@ -32,12 +32,12 @@ class Student extends Person {
 }
 
 // Person instance
-const person = new Person('osama.s.abdelmoniem@gmail.com');
+const person = new Person('nelson@gmail.com');
 // accessing email property using Person instance.
 // console.log(person._email); will give an error.
 
 // Student instance
-const student = new Student('osama.s.abdelmoniem@gmail.com');
+const student = new Student('nelson@gmail.com');
 // accessing email property using Student instance.
 // console.log(student._email); will give an error.
 student.shareEmail();
