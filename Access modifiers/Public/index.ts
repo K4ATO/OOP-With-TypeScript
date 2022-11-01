@@ -9,7 +9,7 @@
 /*
     Public
         By using the public access modifier,
-        the method or property can be accessed by other objects.
+        properties and methods can be accessed by other objects.
  */
 
 /*
