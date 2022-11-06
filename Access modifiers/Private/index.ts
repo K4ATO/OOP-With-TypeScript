@@ -16,7 +16,7 @@ class Person {
     }
 
     // a getter method to get the private property.
-    public getEmail() {
+    get email() {
         return this._email;
     }
 }
@@ -27,7 +27,7 @@ class Student extends Person {
         // This will give an error,because _email is private in Person class.
 
         // we can use getEmail() method to get the email.
-        console.log(`My email is ${this.getEmail()}`);
+        console.log(`My email is ${this.email}`);
     }
 }
 
